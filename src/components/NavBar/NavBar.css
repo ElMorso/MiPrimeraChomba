@@ -1,0 +1,29 @@
+.NavBar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Otros estilos que desees aplicar */
+    margin-bottom: 10%;
+}
+
+.Categories {
+    position: fixed;
+    top: 3%;
+    right: 0%;
+}
+
+  .Categories > * {
+    margin-right: 50px; /* Ajusta el valor según el espacio que desees entre los elementos */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: dashed;
+    color: black;
+}
+
+
+
+.titulo {
+position: fixed;
+top: 2%;
+color: black;
+margin-left: 5px;
+}

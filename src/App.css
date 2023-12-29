@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+body {
+  background: rgb(231,99,156);
+  background: linear-gradient(rgba(231,99,156,1) 0%, rgba(224,161,88,1) 12%, rgba(241,240,108,1) 26%, rgba(155,228,97,1) 39%, rgba(114,224,195,1) 51%, rgba(95,184,231,1) 62%, rgba(81,128,235,1) 78%);
+  background-size: cover; /* Hace que el fondo se ajuste al tamaño del cuerpo sin repetirse */
+  background-repeat: no-repeat; /* Evita que se repita el fondo */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ItemContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilos para cada item (puedes ajustar según sea necesario) */
+.CardItem {
+  /* Otros estilos para el item */
+  width: 20%; /* Ancho para que haya espacio para los 3 elementos en la misma fila */
+  margin: 10px; /* Espaciado entre los items */
 }
